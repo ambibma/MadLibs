@@ -46,6 +46,7 @@ namespace MadLibs.Controllers
       return View(myMadVariable2);
     }
 
+    [Route("/story3")]
     public ActionResult Story3(string noun1, string presentParticiple1, string noun2, string userName)
     {
       MadVariable3 myMadVariable3 = new MadVariable3();
